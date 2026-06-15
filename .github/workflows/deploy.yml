@@ -23,7 +23,7 @@ jobs:
           cache: 'npm'  # 👈 Especifica npm como cache
       
       - name: Install dependencies
-        run: npm ci  # 👈 Usa npm ci en lugar de package-manager
+        run: npm install  # 👈 Usa npm ci en lugar de package-manager
       
       - name: Build
         run: npm run build  # 👈 Build con npm
