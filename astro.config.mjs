@@ -1,8 +1,9 @@
-import { defineConfig, envField } from "astro/config";
+  import { defineConfig, envField } from "astro/config";
 import tailwindcss from "@tailwindcss/vite";
 import vercel from "@astrojs/vercel";
 
 export default defineConfig({
+  site: 'https://waltercode.github.io',
   vite: {
     plugins: [tailwindcss()],
   },
