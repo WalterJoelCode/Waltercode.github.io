@@ -8,4 +8,7 @@ export default defineConfig({
     plugins: [tailwindcss()],
   },
   output: "static",
+  experimental: {
+    actions: false
+  }
 });
