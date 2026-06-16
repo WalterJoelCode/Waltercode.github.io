@@ -21,4 +21,8 @@
   "devDependencies": {
     "@types/node": "^20.0.0"
   }
+    "scripts": {
+    "build": "astro build"
+  }
 }
+
