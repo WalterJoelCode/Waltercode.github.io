@@ -1,28 +1,31 @@
 {
-  "name": "Waltercode-portfolio",
+  "name": "waltercode-portfolio",
   "type": "module",
   "version": "1.0.0",
+  "description": "Portfolio site built with Astro and deployed to GitHub Pages",
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "check": "astro check"
   },
   "dependencies": {
-    "@astrojs/vercel": "^7.8.0",
-    "@tailwindcss/vite": "^4.0.0",
-    "astro": "^4.16.0",
+    "@tailwindcss/vite": "^4.0.11",
+    "astro": "^4.16.3",
     "handlebars": "^4.7.8",
-    "motion": "^11.0.0",
-    "resend": "^3.0.0",
-    "tailwindcss": "^4.0.0",
-    "vite": "^5.4.0"
+    "motion": "^11.11.9",
+    "resend": "^4.1.2",
+    "tailwindcss": "^4.0.11",
+    "vite": "^5.4.11"
   },
   "devDependencies": {
-    "@types/node": "^20.0.0"
-  }
-    "scripts": {
-    "build": "astro build"
+    "@types/node": "^22.10.5",
+    "@astrojs/check": "^0.9.3",
+    "typescript": "^5.7.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
 
