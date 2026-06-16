@@ -3,7 +3,7 @@ import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
   site: 'https://waltercode.github.io',
-  base: '/waltercode-portfolio',
+  base: '/inicio',
   outDir: './dist',
   output: 'static',
   vite: {
