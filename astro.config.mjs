@@ -4,6 +4,7 @@ import vercel from "@astrojs/vercel";
 
 export default defineConfig({
   site: 'https://waltercode.github.io',
+  base: 'Waltercode.github.io',
   vite: {
     plugins: [tailwindcss()],
   },
@@ -13,6 +14,6 @@ export default defineConfig({
       MY_EMAIL: envField.string({ context: "server", access: "secret" }),
     },
   },
-  output: "server",
+  output: "static",
   adapter: vercel(),
 });
